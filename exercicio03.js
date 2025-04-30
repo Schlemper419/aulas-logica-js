@@ -14,4 +14,4 @@ function soma (nota ){
     }
 }
 
-soma(7)
+soma(8)
