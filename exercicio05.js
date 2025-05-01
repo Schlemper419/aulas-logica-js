@@ -8,5 +8,7 @@ function desbembraArray (lista){
     }
 
 }
+
+
 desbembraArray(lista)
 
