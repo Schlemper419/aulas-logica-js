@@ -8,3 +8,12 @@ btnIncrementaValor.addEventListener("click", ()=>{
     contador++
     resultado.textContent = `Contador: ${contador}`
 })
+
+const btnDecrementarValor = document.querySelector("#btnDecrementar")
+
+btnDecrementarValor.addEventListener("click", ()=>{
+    if(contador > 0){
+    contador--
+    resultado.textContent = `Contador: ${contador}`
+    }
+})
